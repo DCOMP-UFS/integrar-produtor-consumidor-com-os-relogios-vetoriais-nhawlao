@@ -3,4 +3,4 @@
 
 ## Equipe responsável:
  * Nayla Sahra Santos das Chagas - 202000024525  
- * Túlio Sousa de Gois - 202000024599vvv
+ * Túlio Sousa de Gois - 202000024599
