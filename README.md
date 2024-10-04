@@ -89,16 +89,6 @@ Os cenários de teste estão implementados nas funções de cada thread. O cená
        pthread_cond_wait(&can_consume_saida, &mutex_saida);
    }
    ```
-
-Para testar diferentes cenários, pode-se ajustar os tamanhos dos buffers, adicionar atrasos artificiais, ou modificar a frequência de produção/consumo nas threads.
-
-### Logs e Depuração
-
-Logs detalhados foram adicionados em pontos críticos do código para facilitar a depuração e o acompanhamento do fluxo de execução. Por exemplo:
-
-```c
-printf("Processo %d: Thread Relógios - Relógio atualizado\n", rank);
-print_vector_clock(&vc, rank);
-```
-
-Estes logs permitem acompanhar a evolução dos relógios vetoriais e o fluxo de mensagens entre os processos.
+# Dificuldades encontradas
+- Sincronização das threads;
+- Validação do resultado dos relógios vetoriais;
