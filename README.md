@@ -7,7 +7,7 @@
    
 ---
 
-# Explicação do Sistema de Relógios Vetoriais
+# Explicação da Integração do Sistema Produtor Consumidor com o Sistema de Relógios Vetoriais
 
 ## Solução
 
